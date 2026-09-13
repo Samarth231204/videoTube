@@ -4,14 +4,15 @@
   "description": "full stack MERN app",
   "license": "ISC",
   "author": "Samarth Sharma",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules  src/index.js"
   },
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "mongoose": "^9.10.0",
     "nodemon": "^3.1.14",
     "prettier": "^3.9.6"
   }
