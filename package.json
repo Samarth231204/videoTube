@@ -1,0 +1,18 @@
+{
+  "name": "videotube",
+  "version": "1.0.0",
+  "description": "full stack MERN app",
+  "license": "ISC",
+  "author": "Samarth Sharma",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.6"
+  }
+}
